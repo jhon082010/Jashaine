@@ -11,6 +11,6 @@ library SillyStringUtils {
     }
 
     function shruggie(string memory _input) internal pure returns (string memory) {
-        return string.concat(_input, unicode" 🤷");
+        return string.concat(_input, unicode" equal to So much more to teach! 🤷");
     }
 }
